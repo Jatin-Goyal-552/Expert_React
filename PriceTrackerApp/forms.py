@@ -7,9 +7,14 @@ from .models import *
 class CreateUserForm(UserCreationForm):
 	class Meta:
 		model = User
-		fields = ['username','email', 'password1', 'password2']
+		fields = ['username','email', 'password1', 'password2','age']
 
 class AddLinkForm(forms.ModelForm):
     class Meta:
         model = Link
         fields = ('user','url', )
+
+
+# add age field to form
+
+
