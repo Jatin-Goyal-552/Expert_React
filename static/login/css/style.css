@@ -40,7 +40,7 @@ list-type-ulli, .socials {
 @font-face {
   font-family: 'Poppins';
   font-style: italic;
-  font-weight: 400;
+  font-weight: 450;
   src: url("../fonts/poppins/poppins-v5-latin-italic.eot");
   /* IE9 Compat Modes */
   src: local("Poppins Italic"), local("Poppins-Italic"), url("../fonts/poppins/poppins-v5-latin-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins/poppins-v5-latin-italic.woff2") format("woff2"), url("../fonts/poppins/poppins-v5-latin-italic.woff") format("woff"), url("../fonts/poppins/poppins-v5-latin-italic.ttf") format("truetype"), url("../fonts/poppins/poppins-v5-latin-italic.svg#Poppins") format("svg");
@@ -49,7 +49,7 @@ list-type-ulli, .socials {
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
-  font-weight: 500;
+  font-weight: 550;
   src: url("../fonts/poppins/poppins-v5-latin-500.eot");
   /* IE9 Compat Modes */
   src: local("Poppins Medium"), local("Poppins-Medium"), url("../fonts/poppins/poppins-v5-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins/poppins-v5-latin-500.woff2") format("woff2"), url("../fonts/poppins/poppins-v5-latin-500.woff") format("woff"), url("../fonts/poppins/poppins-v5-latin-500.ttf") format("truetype"), url("../fonts/poppins/poppins-v5-latin-500.svg#Poppins") format("svg");
