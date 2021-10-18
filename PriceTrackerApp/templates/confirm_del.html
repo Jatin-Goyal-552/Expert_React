@@ -3,7 +3,7 @@
 {% block content %}
 <form method="POST" action="">
     {% csrf_token %}
-    <p>Are you sure you want to dekete the link: "{{object.name}}"?</p>
+    <p>Are you sure you want to delete the link: "{{object.name}}"?</p>
     <button type="submit" class="btn btn-danger">yes</button>
 </form>
 {% endblock content %}
