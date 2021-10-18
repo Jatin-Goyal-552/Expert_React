@@ -94,7 +94,7 @@ list-type-ulli, .socials {
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 750;
   src: url("../fonts/poppins/poppins-v5-latin-800.eot");
   /* IE9 Compat Modes */
   src: local("Poppins ExtraBold"), local("Poppins-ExtraBold"), url("../fonts/poppins/poppins-v5-latin-800.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins/poppins-v5-latin-800.woff2") format("woff2"), url("../fonts/poppins/poppins-v5-latin-800.woff") format("woff"), url("../fonts/poppins/poppins-v5-latin-800.ttf") format("truetype"), url("../fonts/poppins/poppins-v5-latin-800.svg#Poppins") format("svg");
@@ -103,7 +103,7 @@ list-type-ulli, .socials {
 @font-face {
   font-family: 'Poppins';
   font-style: italic;
-  font-weight: 800;
+  font-weight: 850;
   src: url("../fonts/poppins/poppins-v5-latin-800italic.eot");
   /* IE9 Compat Modes */
   src: local("Poppins ExtraBold Italic"), local("Poppins-ExtraBoldItalic"), url("../fonts/poppins/poppins-v5-latin-800italic.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins/poppins-v5-latin-800italic.woff2") format("woff2"), url("../fonts/poppins/poppins-v5-latin-800italic.woff") format("woff"), url("../fonts/poppins/poppins-v5-latin-800italic.ttf") format("truetype"), url("../fonts/poppins/poppins-v5-latin-800italic.svg#Poppins") format("svg");
