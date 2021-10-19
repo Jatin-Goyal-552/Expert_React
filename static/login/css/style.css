@@ -13,7 +13,7 @@ list-type-ulli, .socials {
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
-  font-weight: 300;
+  font-weight: 350;
   src: url("../fonts/poppins/poppins-v5-latin-300.eot");
   /* IE9 Compat Modes */
   src: local("Poppins Light"), local("Poppins-Light"), url("../fonts/poppins/poppins-v5-latin-300.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins/poppins-v5-latin-300.woff2") format("woff2"), url("../fonts/poppins/poppins-v5-latin-300.woff") format("woff"), url("../fonts/poppins/poppins-v5-latin-300.ttf") format("truetype"), url("../fonts/poppins/poppins-v5-latin-300.svg#Poppins") format("svg");
