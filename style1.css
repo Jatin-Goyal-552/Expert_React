@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "poppins", sans-serif;	
+	text-decoration: none;
+	list-style: none;
+	
+}
+
+section
+{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	backround: url(bg.jpg)no-repeat;
+	background-size: cover;
+	backround-position: center;
+}
+header
+{
+	position: relative;
+	top: 0;
+	width: 100%;
+	padding: 30px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+	
+header .Techdkm
+{
+	position: relative;
+	colour: #000;
+	font-size: 50px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 1px;	
+}
+header .navigation a{
+	color: green;
+	background: #00ffff ;
+	text-decoration: none;
+	font-weight: 500;
+	letter-spacing: 2px;
+	padding: 2px 15px;
+	border-radius: 80px;
+	transition: 0.3s;
+	transition-property: background;
+	
+}
+
+ header .navigation a:not(:last-child)
+{
+	margin-right:30px:
+}
+
+header .navigatiion a:hover{
+	background: #fff;
+}
+.content{
+	max-width: 650px;
+	margin: 60px 100px;
+}
+.content .info h2{
+	color: red;
+	font-size: 55px;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 2px;
+	line-height: 50px;
+	margin-bottom: 30px;
+}
+
+.content .info h2 span{
+	color: blue;
+	font-size: 50px;
+	font-weight: 600;
+}
+.content .info p{
+	font-size: 16px;
+	font-weight: 500:
+	margin-bottom: 40px;
+}
+.content .info-btn{
+	color: #fff;
+	background: gray;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	padding: 10px 20px;
+	border-radius; 5px;
+	
+}
+.content .info-btn:hover{
+	background: #0C4F60;
+}
+.media-icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	
+}
+.media-icons a{
+	position: relative;
+	color: #111;
+	font-size: 70px;
+}
+
+.media-icons a:not{:last-child)
+	{
+		margin-right: 60px;
+	}
+.media-icons a:hover{
+	transform: scale(1:5);
+}
+label{
+	display: none;
+}
+ #check{
+	z-index: 3;
+	display: none;
+}
+/*Responsive style*/
+
+@media (max-width: 960px)
+{
+	header .navigation{
+		display: none;
+	}
+	
+	label{
+		display: block;
+		font-size: 25px;
+		cursor: pointer;
+		transition: 0.03s;
+		transition-property: color;
+	}
+	
+	label:hover{
+		color: #fff;
+	}
+	label .close-btn{
+		display: none;
+	}
+	
+	#cheak:checked ~header .navigation{
+		z-index: 2;
+		position:fixed;
+		background: rgba(114, 223, 255, 0.9);
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	#check:checked ~ header .navigatiion a{
+		font-weight: 700;
+		margin-right: 0;
+		margin-bottom: 50px;
+		letter-spacing: 2px;
+	}
+	
+	#check:checked ~ header label .menu-btn{
+		display: none;
+	}
+	
+	#check:checked ~ header label .close-btn{
+			z-index: 2;
+			display: block;
+			position: fixed;
+	}
+	label .menu-btn{
+		position: absolute;
+		color: white;
+		font-size:35px;
+		line-height: 80px;
+		padding: 0 100px;
+		font-weight: bold;
+		
+	}
+	header .logo{
+		position: absolute;
+		bottom: -6px;
+		position: absolute;
+		color: white;
+		font-size:35px;
+		line-height: 80px;
+		padding: 0 100px;
+		font-weight: bold;
+		
+	}
+	.content .info h2{
+		font-size: 45px;
+		line-height: 50px;
+		
+}
+.content .info h2 span{
+	font-size: 40px;
+	font-weight: 600;
+}
+.content .info p{
+	font-size: 14px;
+}
+}
+
+@media (max-width: 560px)
+{
+	.content .info h2{
+		font-size: 35px;
+		line-height: 40px;	
+}
+.content .info h2 span{
+	font-size: 30px;
+	font-weight: 600;
+}
+.content .info p{
+	font-size: 14px;
+}
+}
+
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
