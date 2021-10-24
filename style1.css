@@ -8,7 +8,6 @@
 	list-style: none;
 	
 }
-
 section
 {
 	position: relative;
@@ -31,8 +30,7 @@ header
 	justify-content: space-between;
 	align-items: center;
 }
-	
-header .Techdkm
+	header .Techdkm
 {
 	position: relative;
 	colour: #000;
