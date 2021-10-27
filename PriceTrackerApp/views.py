@@ -41,7 +41,6 @@ def register(request):
             # return redirect('login')
     context = {'form':form}
     return render(request, 'register.html', context)
-
 def check_otp(request):
     if request.method == 'POST':
         otp = request.POST['otp']
