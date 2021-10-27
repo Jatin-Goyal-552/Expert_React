@@ -19,8 +19,6 @@ from .models import *
 from .forms import AddLinkForm
 from django.views.generic import DeleteView
 
-
-
 # Create your views here.
 def register(request):
     global username,email,password,OTP
