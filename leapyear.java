@@ -1,6 +1,6 @@
 public class leapyear
 {
-
+class 
     public static void main(String[] args)
      {
     
